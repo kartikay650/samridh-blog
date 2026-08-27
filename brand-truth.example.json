@@ -1,0 +1,39 @@
+{
+  "_README": "Copy this file to brand-truth.json and replace every value with YOUR company's real, verifiable facts. This object is the single source of truth the whole engine writes from — every blog is grounded strictly in what's here. Garbage in = generic/hallucinated blogs out. Be specific and truthful; leave a field as an empty string/array rather than inventing.",
+
+  "one_liner": "One sentence: what the product is + who it's for. e.g. 'Acme is AI-powered invoice reconciliation for mid-market finance teams.'",
+
+  "what_it_is": "2-4 plain sentences describing what you do, how it works, and the concrete outcome for the customer. No marketing fluff — a smart friend explaining it.",
+
+  "icp": "Who genuinely buys/uses this — role, company size, industry, the situation they're in. e.g. 'Finance managers and controllers at $10M-$200M B2B companies drowning in manual AP work.'",
+
+  "key_facts": [
+    "5-10 concrete, VERIFIABLE facts (real features, integrations, pricing tier, markets served, certifications, real numbers).",
+    "e.g. 'Integrates natively with QuickBooks, Xero, and NetSuite.'",
+    "e.g. 'Processes invoices in under 30 seconds with 99.2% line-item accuracy.'",
+    "e.g. 'SOC 2 Type II certified.'",
+    "Each a short factual statement. NEVER invent a stat you can't back up."
+  ],
+
+  "differentiators": [
+    "Why choose you over the alternatives — the specific wedge.",
+    "e.g. 'Unlike generic OCR tools, we reconcile against your GL automatically, not just extract text.'"
+  ],
+
+  "features_or_ingredients": [
+    "Your real features (SaaS) / ingredients or materials (D2C) / service offerings.",
+    "Copy from your actual product. Empty if not applicable."
+  ],
+
+  "positioning": "The category you're in + your wedge, one short paragraph. e.g. 'In the AP-automation category, we're the option for teams that want reconciliation, not just data capture — built for finance, not IT.'",
+
+  "faqs": [
+    { "q": "A real question your buyers ask.", "a": "A grounded, honest answer (feeds FAQ schema for AI citation)." },
+    { "q": "e.g. Does it work with our existing ERP?", "a": "e.g. Yes — native integrations with QuickBooks, Xero, and NetSuite; others via API." }
+  ],
+
+  "off_limits": [
+    "Topics/claims you must NEVER make — legal or brand-unsafe.",
+    "e.g. medical cure claims, competitor bashing, specific financial/legal advice, guarantees you can't back."
+  ]
+}
